@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebTimes Lead Response System</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f6f7f9;
+        color: #111;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 520px;
+        margin: auto;
+        background: #ffffff;
+        padding: 20px;
+    }
+
+    .logo {
+        text-align: center;
+        padding: 20px 0;
+        font-weight: bold;
+        font-size: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .section {
+        margin-bottom: 25px;
+    }
+
+    .box {
+        background: #f1f3f5;
+        padding: 12px;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    .cta {
+        display: block;
+        text-align: center;
+        background: #25D366;
+        color: white;
+        padding: 14px;
+        border-radius: 8px;
+        font-size: 16px;
+        text-decoration: none;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .cta.secondary {
+        background: #007BFF;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    .small {
+        font-size: 13px;
+        color: #666;
+    }
+
+    .divider {
+        height: 1px;
+        background: #eee;
+        margin: 20px 0;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+        [LOGO HERE]
+    </div>
+
+    <!-- HEADLINE -->
+    <h1>⚡ Never Lose Another Website Enquiry</h1>
+    <p>Instant WhatsApp replies for every lead your business receives.</p>
+
+    <div class="section">
+        <h2>👀 The Problem</h2>
+        <div class="box">
+            Most service businesses lose jobs because they respond too slowly to enquiries.
+            Customers move on within minutes.
+        </div>
+        <p><b>Slow response = lost revenue.</b></p>
+    </div>
+
+    <div class="section">
+        <h2>💥 The Solution</h2>
+        <p>We install a simple system that automatically responds to every enquiry.</p>
+
+        <ul>
+            <li>✔️ Captures website enquiries instantly</li>
+            <li>✔️ Sends WhatsApp replies automatically</li>
+            <li>✔️ Notifies you immediately</li>
+            <li>✔️ Works 24/7 without you lifting a finger</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>⚙️ How It Works</h2>
+        <div class="box">
+            1. Customer submits enquiry<br>
+            2. Instant WhatsApp reply sent<br>
+            3. You get notified<br>
+            4. You close the job when ready
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>👷 Built For</h2>
+        <ul>
+            <li>Plumbers</li>
+            <li>Electricians</li>
+            <li>Aircon Technicians</li>
+            <li>Builders & Contractors</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>💰 Pricing</h2>
+        <p class="price">R550 once-off setup</p>
+        <p class="price">R249 per month</p>
+        <p class="small">Setup fee waived if you start within 7 days</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- CTA BUTTON -->
+    <a href="https://YOUR-PAYFAST-LINK-HERE"
+       class="cta"
+       onclick="trackClick('payfast_click')">
+       🚀 Activate My Lead Response System
+    </a>
+
+    <p class="small" style="text-align:center;">
+        Secure payment via PayFast
+    </p>
+
+    <div class="divider"></div>
+
+    <!-- SECOND CTA -->
+    <a href="https://wa.me/YOURNUMBER"
+       class="cta secondary"
+       onclick="trackClick('whatsapp_click')">
+       💬 Ask a Question on WhatsApp
+    </a>
+
+    <p class="small" style="text-align:center;">
+        We’ll help you get set up quickly
+    </p>
+
+</div>
+
+<!-- CLICK TRACKING SCRIPT -->
+<script>
+function trackClick(eventName) {
+    console.log("Tracked event:", eventName);
+
+    // Hook point for:
+    // - Google Analytics (gtag)
+    // - Meta Pixel (fbq)
+    // Example:
+    // fbq('track', eventName);
+    // gtag('event', eventName);
+}
+</script>
+
+</body>
+</html>
